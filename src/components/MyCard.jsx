@@ -12,6 +12,7 @@ export const MyCard=({title, author, rating, cover, description, category})=> {
           w="100%"
           mah={220}
           alt={title}
+          fallbackSrc='https://placehold.co/600x400?text=Placeholder'
         />
       </Card.Section>
 

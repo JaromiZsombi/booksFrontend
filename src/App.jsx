@@ -25,7 +25,7 @@ function App() {
         direction="row"
         wrap="nowrap"
       >
-        <Affix position={{top:20}} style={{width:width}}><Title style={{textAlign:"center", color:"red"}}>Válogass a címek között</Title></Affix>
+        <Affix position={{top:0}} style={{width:width, backgroundColor:"lavender"}}><Title style={{textAlign:"center", color:"red"}}>Válogass a címek között</Title></Affix>
         <Affix position={{top: isMobile? 100:0, right:0}}>
           <MyMenu></MyMenu>
         </Affix>
