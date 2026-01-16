@@ -24,10 +24,6 @@ export const MyCard=({title, author, rating, cover, description, category})=> {
       <Text size="sm" c="dimmed">
         {description}
       </Text>
-
-      <Button color="blue" fullWidth mt="md" radius="md">
-        Book classic tour now
-      </Button>
     </Card>
     </div>
     
